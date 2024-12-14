@@ -1,7 +1,7 @@
 # Return NewReddit
 Return NewReddit try to mimic new.reddit.com user interface
 
-It's a work in progress ; it's icomplete and buggy.
+It's a work in progress ; it's incomplete and buggy.
 
 Support:
 - For any request or bug report please visit this page:
