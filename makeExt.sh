@@ -16,6 +16,7 @@ cp -fr $INITIAL_DIR $BRANCH/
 cd $INITIAL_DIR
 cd ../_ext/$BRANCH
 rm -rf README.md
+rm -rf icons/icon.svg
 rm -rf *.sh
 rm -rf .git/
 rm -rf .vscode/
