@@ -6,12 +6,12 @@ class ContentScript {
         const bgc1 = "#030303"; //background color 1
         const bgc2 = "#1a1a1a"; //background color 2
 
-        this._domChanges = [
+        this._containers = [
             //s: selector, t: target container, p: position
             { s: "span.mr-sm", t: "#main-content", p: "afterbegin" },                   // move "Create Post" button
         ];
 
-        this._styleChanges = [
+        this._styles = [
             //s: selector, p: property, v: value
             { s: "#left-sidebar-container", p: "display", v: "none" },                  // hide left sidebar
             { s: "html", p: "background-color", v: bgc1 },                              // page background color
@@ -54,42 +54,74 @@ class ContentScript {
     }
 
     updateDom() {
-        //update elements container according _domChanges
-        for (const item of this._domChanges) {
-            const elements = document.querySelectorAll(item.s);
-            const targetNode = document.querySelector(item.t);
-            if (targetNode) {
-                for (const el of elements) {
-                    targetNode.insertAdjacentElement(item.p, el);
+        //update elements container according _containers
+        try {
+            for (const item of this._containers) {
+                try {
+                    const elements = document.querySelectorAll(item.s);
+                    const targetNode = document.querySelector(item.t);
+                    if (targetNode) {
+                        for (const el of elements) {
+                            try { targetNode.insertAdjacentElement(item.p, el); }
+                            catch (e) { console.error(e) }
+                        }
+                    }
+                }
+                catch (e) {
+                    console.error(e);
                 }
             }
+        }
+        catch (e) {
+            console.error(e)
         }
     }
 
     updateCustom() {
         //Move short menu from dropdown in the  container upper
-        const memuItems = document.querySelector(".mr-md > div:nth-child(1) > shreddit-sort-dropdown:nth-child(1) > div:nth-child(3)");
-        if (memuItems) {
-            const newContainer = document.querySelector('shreddit-async-loader[bundlename="shreddit_sort_dropdown"]').parentNode;
-            if (newContainer) {
-                newContainer.insertAdjacentElement("afterbegin", memuItems);
+        try {
+            const memuItems = document.querySelector(".mr-md > div:nth-child(1) > shreddit-sort-dropdown:nth-child(1) > div:nth-child(3)");
+            if (memuItems) {
+                const newContainer = document.querySelector('shreddit-async-loader[bundlename="shreddit_sort_dropdown"]').parentNode;
+                if (newContainer) {
+                    newContainer.insertAdjacentElement("afterbegin", memuItems);
+                }
             }
         }
+        catch (e) {
+            console.error(e)
+        }
 
-        //Hide the empty short menu dropdown
-        const menuDropdown = document.querySelector('shreddit-sort-dropdown[telemetry-source="sort_switch"]').parentNode;
-        menuDropdown.style.display = "none";
-
+        try {
+            //Hide the empty short menu dropdown
+            const shredditSort = document.querySelector('shreddit-sort-dropdown[telemetry-source="sort_switch"]');
+            shredditSort.parentNode.style.display = "none";
+        }
+        catch (e) {
+            console.error(e)
+        }
     }
 
 
     updateElementsStyle() {
-        //update elements style according _styleChanges
-        for (const item of this._styleChanges) {
-            const elements = document.querySelectorAll(item.s);
-            for (const el of elements) {
-                el.style[item.p] = item.v;
+        //update elements style according _styles
+        try {
+            for (const item of this._styles) {
+                try {
+                    const elements = document.querySelectorAll(item.s);
+                    for (const el of elements) {
+                        try { el.style[item.p] = item.v; }
+                        catch (e) { console.error(e) }
+
+                    }
+                }
+                catch (e) {
+                    console.error(e)
+                }
             }
+        }
+        catch (e) {
+            console.error(e)
         }
     }
 }

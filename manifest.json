@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ReturnNewReddit",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Mimic new.reddit.com user interface",
   "homepage_url": "https://github.com/dauphine-dev/returnnewreddit",
   "browser_specific_settings": {
