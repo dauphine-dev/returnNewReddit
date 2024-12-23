@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="l-bulb-off.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#808080"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="13.679924"
+     inkscape:cx="26.571785"
+     inkscape:cy="26.315936"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"><sodipodi:guide
+       position="0,127"
+       orientation="0,1"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="100,107.84623"
+       orientation="-1,0"
+       id="guide2"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="43,200"
+       orientation="-1,0"
+       id="guide5"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="157,200"
+       orientation="-1,0"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="44,127.02057"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="156,200"
+       orientation="-1,0"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="257,198.27521"
+       orientation="-1,0"
+       id="guide4"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+      <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.60772;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 21.905067,46.80386 c 0,0.178226 0.3992,0.230541 1.047374,0.319654 0.648174,0.08915 1.44682,0.08915 2.094995,0 0.648174,-0.08911 1.047497,-0.141428 1.047497,-0.319654 h -2.094872 z"
+       id="path6" />
+      <path
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.64535,43.499991 -9.2907,0.0406 z"
+       id="path5" />
+      <path
+       style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.655924,39.999995 -9.311848,0.0305 z"
+       id="path4" />
+      <path
+       d="m 23.927734,1.2011719 c -2.203,-0.00764 -4.124253,0.5196231 -5.251953,1.0332031 -1.1301,0.51463 -4.616453,2.598985 -6.189453,5.265625 -1.5729,2.66662 -2.7617878,6.708097 -2.085937,10.716797 0.6759,4.0088 5.708975,8.630569 7.109375,11.792969 1.4003,3.1623 2.014496,5.030259 2.029296,6.943359 3.2883,0.0137 1.402438,0.012 4.460938,0 1.903,0.0196 1.172538,0.0137 4.460937,0 0.0148,-1.9131 0.628997,-3.781059 2.029297,-6.943359 1.4004,-3.1624 6.433475,-7.784169 7.109375,-11.792969 C 38.275409,14.208097 37.086672,10.16662 35.513672,7.5 33.940672,4.83336 30.454219,2.749005 29.324219,2.234375 28.196519,1.720795 26.130734,1.2088019 23.927734,1.2011719 Z"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:2.40328;stroke-linecap:round;fill-opacity:0"
+       id="path7" />
+  </g>
+</svg>

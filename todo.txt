@@ -1,0 +1,3 @@
+ - subscribe to a post
+ - magane dark/light mode
+ - many UI stuff...
