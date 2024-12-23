@@ -10,6 +10,9 @@ Support:
 - For any request or bug report please visit this page:
     https://github.com/dauphine-dev/returnNewReddit
 
+# Note
+For now it's a dark mode only add-on, the light mode will supported in a future version.
+
 # How to test
 From `about:debugging` page open the file manifest.json
 
