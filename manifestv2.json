@@ -9,17 +9,21 @@
       "id": "ReturnNewReddit@dauphine-dev",
       "strict_min_version": "128.0"
     }
-  },    
+  },
   "icons": {
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-
   "content_scripts": [
     {
-      "matches": ["*://www.reddit.com/*"],
-      "js": ["contentScript.js"]
+      "matches": [
+        "*://www.reddit.com/*"
+      ],
+      "js": [
+        "js/redditHelper.js",
+        "js/subcribeButtonHelper.js",
+        "js/contentScript.js"
+      ]
     }
   ]
-
 }
